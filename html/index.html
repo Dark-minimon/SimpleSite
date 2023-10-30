@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Страничка</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <h1>Содержимое</h2>
+
+        <p>еще строчка</p><br>
+
+        и вот тут еще одна
+
+        <h2>Скриншот дядьки</h2>
+        <p><img id="manScreen" class="screenshot centered" src="/img/дядька.png" alt=""></p>
+        <a href="https://www.youtube.com/">Ютуб</a>
+    
+<script type="text/javascript">
+    window.onload = function(){
+        // let h1 = document.querySelector('h1');
+        // h1.addEventListener("click", function(){
+        //     h1.style.color = "green";
+        //     document.querySelector('img').style.display = "none";
+        // })
+        document.querySelector('p:nth-child(2)').style.color = "green";
+    }
+    
+</script>
+
+        <form action="/send-feedback/" class="feedback-form" method="post">
+            <p>Форма для сообщений</p>
+            <p><input type="text" name="name" placeholder="Ваше имя" /></p>
+            <p><textarea name="message" placeholder="Ваше сообщение"></textarea></p>
+            <p><input type="submit" value="Отправить" /></p>
+        </form>
+    
+    </body>
+</html> 

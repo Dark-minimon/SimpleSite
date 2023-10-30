@@ -1,0 +1,22 @@
+img.screenshot  {
+    width: 40%;
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body {
+    background-color: rgb(231, 166, 81);
+    padding: 20px;
+}
+a {
+    color: rgb(201, 71, 71);
+}
+.feedback-form input, textarea{
+    width: 30%
+}
+.feedback-form textarea{
+    height: 100px;
+}
